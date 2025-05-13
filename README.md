@@ -202,7 +202,13 @@ The Standard and Silver segment have relatively less individuals that are very h
 ### **Q13**. 
 Plot showing the lifetime value of customers acquired in different months: </br>
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/f0e374b1-8f16-4331-89f2-3293fa476074" />
+**Observations:**  
+1. The lifetime value of customers acquired during the first half of the year is much higher as compared to the lifetime value of the customers acquired in the second half of the year. This shows that we have a weak negative correlation between the acquisition month of a customer and their lifetime value
+2. The customer acquired in January have the highest lifetime value.
 
+**How these insights can inform acquisition and retention strategies:**  
+1. We can analyze the strategies implemented for customer acquisition for high lifetime value for retention and replicate those values across the low performing months.
+2. Investigating the periods for low CLTV can also help provide insights to factors aas well as strategies that do not work and need to be improved upon.
 
 ### **Q14**  
 We will be usinga statistical test to answer the following question:  
@@ -247,3 +253,41 @@ Plot for Average total spend/order value vs the GST Rate:
 <img width="589" alt="image" src="https://github.com/user-attachments/assets/6f498603-9dd5-4a7d-a937-1aa7209cce45" />
 Plot for Average total spend/order value vs Delivery Charge:
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/281ed513-bfd2-42c7-bc9e-c3bfa27f7a8e" />
+**Observations:**  
+1. From the total spend vs GST rate graph, we can see that cuastomers tend to spend more on products with lower tax as increase in taxt increases the final cost of the product as well. Thus we can see a negative correlation between the customer spending and the GST rate.
+2. Orders with higher delivery fee also have a higher order value. We can observe that delivery fee increases with increase in order size. So for orders woth higher cart value, we see higher delivery fees, but for orders with lower cart value, customers prefer to have lower delivery fees only. This observation was also seen in one of the previous plots in this business study.
+
+**Opportunities to adjust pricing strategies to improve customer satisfaction and revenue:**  
+1. Since customers spend most on low GST items, promoting theses items will more likely help in increasing the sale and the revenue.
+2. Adjust delivery fees during periods expected to have high sales. Offering free delivery during for orders above a certain threshold as well as reduced delivery fees for normal products can lead to even higher sales during these months, since majority fo the customers prefer products with low delivery charges.
+
+### **Q19**  
+Plot for Seasonal trends in sales by product category:
+<img width="652" alt="image" src="https://github.com/user-attachments/assets/1c5c4871-cb07-4ab6-844c-9eed796ce2f9" />
+**Observations:**    
+1. Both Chicago and California which are the top locations by revenue, show a drop in May-June and a steep increase in sales during year end(November-December).
+2. New York sees a sharp dip in sales in February and September followed by rise in sales October and November.
+3. New Jersey and Washington also see an increase in sales in November-December but they are the lowest performings tates in terms of revenues,.
+
+Plot for seasonal trends in sales across locations:
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/c2ad4d3e-23fb-4d3d-97c7-d2ad3ab43d97" />
+**Observations:**  
+1. The product category with code nest-canada has the highest sales.
+2. Apparel category has the highest demand in April with high demand from February-June period and demand slows down during the end of the year.
+3. We see a start increase in teh demand for the product category nest From July onwards till teh end of the year.
+4. Rest of the products have overall low demans as compared to these three products throughout the year.
+
+The company can use this history data about the demands of the poducts during different seasons to better manage their inventory.
+This darta can also be used to identify low selling periods for different product categories and try to increase the sales of these products during the low selling months using targeted promotion campaigns and product specific dicounst to encourage cutstomers to shop more for these products.  
+
+### **Q20**  
+Plot showing the average demand by the day of the week:  
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/7ec0f8a9-4390-4588-a56d-daffef0bb862" />
+
+**Observations:**  
+1. Week start has lower demand and hence lower revenue. Monday and Tuesday are the lowest performing days.
+2. The sales and revenue picks up in mid week with the highest values seen across wednesday-friday. Weekends also have comparatively high sales.
+
+**Strategies can be implemented to boost sales on slower days:**  
+1. We need to boost the revenue for the starting days of the weeks. Special coupons or lower delivery rates for these days can act as ways to increase the sales during the starting days of the week.
+2. The data shows that the revebue during the mid and later half of the week is strong, so shifting some of the marketing spend to start of the week can help drive the sales up for these days as well.
