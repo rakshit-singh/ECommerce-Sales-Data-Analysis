@@ -158,8 +158,12 @@ Observations from the data and visualization: </br>
 3. Based on the data, the upward trend in ROI from Feb-July indicates that increasing marketing spend can lead to a higher ROI. So investing more on marketing on months having historically high spending can lead to increase in ROI.
 
 ### **Q9**. 
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/4dd6abfe-7d05-4ae1-994a-20949ab1f210" />
+**Observations:**  
+1. ROI for online marketing spending is constantly much higher than the ROI for offline marketing spend.
 
-
+There are indeed opportunities here to relocate resources for better use. Shifting more budget from offline to Online investments can help increase the ROI. From the hostorical data, we have the months for which offline spending is generating highest ROI. So for these months we can focus more on the offline spending on marketing to increase the ROI as much as possible.  
+We can also analyse the marketing startegies employed during months having peaks of ROI for offline spending and replicate those across the low performing months to increase the overall ROI for offlien marketing spend.  
 
 ### **Q10**. 
 The code level logic for segmenting customers into dofferent groups using RFM segmentation Technique can be found in the jupyter notebook under the section named Q10. The logic for calculating the recency, frequency and the monetary value is under the Feature Engineering section in the jupyter notebook for the project.</br>
@@ -223,7 +227,13 @@ This can also be seen in the plot below comparing the average revenue with and w
 From the image, we can see that there in no signifact in monthly average revenue with coupon use and without coupon use which also confirms the results of the hypothesis testing.
 
 ### **Q15**  
+To check if purchase behaviours differ significantly across locations, we will use ANOVA statistical test.  
+We will check for purchase behaviour(order value and order frequency) across locations. The results for the same are:  
+**ANOVA for order value across locations: F-value = 2.8361212203128505, p-value = 0.02296323645910237**
+The f and p values show that the order values vary significantly across locations. 
 
+**ANOVA for frequency across locations: F-value = 566.0589430758187, p-value = 0.0**  
+These values show that the difference in order values across locations is highly significant. So, we can conclude that customers in some cities are placing much more orders than the customers in other places.
 
 ### **Q16**  
 **The correlation value between the transaction frequency(transactions per month) and the tenure_months is -0.40274277057546637**  
