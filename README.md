@@ -120,11 +120,11 @@ From the plotted graph, we can conclude the following about the revenue generate
 
 ### **Q6**. 
 Trends for monthly total Revenue for Coupon vs no coupon transaction are:</br>
-<img width="802" alt="image" src="https://github.com/user-attachments/assets/7ffa5279-8172-4ffb-af79-2a812b42e7ea" />
+<img width="802" alt="image" src="https://github.com/user-attachments/assets/7ffa5279-8172-4ffb-af79-2a812b42e7ea" /></br>
 Total revenue with coupons is indeed higher across most months—that simply reflects the fact that a large fraction of your sales are transacting with a coupon. 
 
 Trends for monthly Average Revenue for Coupon vs no coupon transaction are:</br>
-<img width="632" alt="image" src="https://github.com/user-attachments/assets/d9adf6e3-8a51-416e-92c0-590a5f95a071" />
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/d9adf6e3-8a51-416e-92c0-590a5f95a071" /></br>
 Average revenue per transaction is slightly higher for no-coupon orders in most months—meaning that, on a per-order basis, coupon-users tend to spend a little less than coupon users. 
 
 **Optimizations that can be done to maximize revenue while maintaining profitability:** </br>
@@ -158,7 +158,7 @@ Observations from the data and visualization: </br>
 3. Based on the data, the upward trend in ROI from Feb-July indicates that increasing marketing spend can lead to a higher ROI. So investing more on marketing on months having historically high spending can lead to increase in ROI.
 
 ### **Q9**. 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/4dd6abfe-7d05-4ae1-994a-20949ab1f210" />
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/4dd6abfe-7d05-4ae1-994a-20949ab1f210" /></br>
 **Observations:**  
 1. ROI for online marketing spending is constantly much higher than the ROI for offline marketing spend.
 
@@ -200,7 +200,17 @@ We can see that the median revenue of premium segment is higher than the gold se
 The Standard and Silver segment have relatively less individuals that are very high spenders as compared to other users in those segment. For nurtuting the users in these segments, a balance between marketing spend and discounts need to be maintained so that the comopany can increase revenue and motivate theses users to spend more without taking a loss.  
 
 ### **Q12**. 
+**Assumption:** Retention Rate is calculated monthly. RententionRate for a month = (Number of users that shopped in the previous and then shopped in teh current month too)/(number of unique users in the current month)
+Customer Retention Trends:
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/365a5f00-2f8f-43af-9ac7-e18ce80cd22e" />
+<img width="609" alt="image" src="https://github.com/user-attachments/assets/c0eb8b1e-c944-4dc4-a19c-e26d48d582e8" />
+<img width="1190" alt="image" src="https://github.com/user-attachments/assets/6e19328b-685b-43fd-835c-8c1640ddd82c" />
 
+From the plots, we can see the **weakest retention month is: February** and the **strongest retention month is: August**. 
+
+**strategies to improve retention during weaker months:**
+1. Instead of having very high discounts in one or two months, focus on more targeted campaigns and spread the discounts across months to improve the overall rate of user retention. We can see in the beginning period of February to April with very high discount s but still low user retentions. So dicsounts alone cannot drive the user retention rate up.
+2. Use targeted marketings with time sensitive offers to motivate users to make their second purchase in the lower retention months. We know the lower retention months from the plots, so we can target those months with time sensitive offers to drive user retenytion up druing those months.
 
 
 ### **Q13**. 
@@ -223,7 +233,7 @@ Alternative Hypothesis: There is a difference in average transaction value betwe
 **P-value: 2.3059138816811853e-09**  
 **Since p value < 0.5 we reject the null hypothesis and conclude that there is a statistically significant difference in average transaction value between coupon users and non-coupon users**  
 This can also be seen in the plot below comparing the average revenue with and without coupon usage.
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/fba98135-dabb-419c-87b8-b84c29153cbe" />
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/fba98135-dabb-419c-87b8-b84c29153cbe"/></br>
 From the image, we can see that there in no signifact in monthly average revenue with coupon use and without coupon use which also confirms the results of the hypothesis testing.
 
 ### **Q15**  
@@ -238,7 +248,7 @@ These values show that the difference in order values across locations is highly
 ### **Q16**  
 **The correlation value between the transaction frequency(transactions per month) and the tenure_months is -0.40274277057546637**  
 To furthere visualise this, we have divided the customer tenures into 5 bins and plotted the average transaction frequency for each bin:  
-<img width="631" alt="image" src="https://github.com/user-attachments/assets/20533d29-bea1-46c0-801d-23bbedb8e88f" />
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/20533d29-bea1-46c0-801d-23bbedb8e88f" /></br>
 This shows that the newer customer/ customers with lower value of tenure_months are buying more frequently than the older customers. This is also consistent with the negative correlation between the transaction frequeency and the customer tenure, which effectively means that as the customer tenure increases the transaction frequency decreases.
 This results can be used to improve customer engagement and retrntion strategies in teh following ways:
 1. From the analysis, we know that as the customer tenure increases their transaction frequency decreases.
@@ -246,9 +256,9 @@ This results can be used to improve customer engagement and retrntion strategies
 
 ### **Q17**  
 Plot for order count vs Delivery charges:  
-<img width="622" alt="image" src="https://github.com/user-attachments/assets/1ba90715-3631-4eef-9ed8-dd8718084c2f" />
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/1ba90715-3631-4eef-9ed8-dd8718084c2f" /></br>
 Plot for order value vs Delivery charges:  
-<img width="622" alt="image" src="https://github.com/user-attachments/assets/a5ee34f1-4c3c-4a44-bbe9-e4993837d442" />
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/a5ee34f1-4c3c-4a44-bbe9-e4993837d442" /></br>
 From the above plots, we can make the following observations:  
 1. Majority of the orders are for the lower delivery fees(around Rs 0-74.48). This shows that most of the users prefer ordering for items with lower delivery charges.
 2. The order count significantly drops as the delivery fee increases, so delivery fee is a major factor influencing the order count.
@@ -260,9 +270,9 @@ From the above plots, we can make the following observations:
 
 ### **Q18**  
 Plot for Average total spend/order value vs the GST Rate:  
-<img width="589" alt="image" src="https://github.com/user-attachments/assets/6f498603-9dd5-4a7d-a937-1aa7209cce45" />
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/6f498603-9dd5-4a7d-a937-1aa7209cce45" /></br>
 Plot for Average total spend/order value vs Delivery Charge:
-<img width="587" alt="image" src="https://github.com/user-attachments/assets/281ed513-bfd2-42c7-bc9e-c3bfa27f7a8e" />
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/281ed513-bfd2-42c7-bc9e-c3bfa27f7a8e" /></br>
 **Observations:**  
 1. From the total spend vs GST rate graph, we can see that cuastomers tend to spend more on products with lower tax as increase in taxt increases the final cost of the product as well. Thus we can see a negative correlation between the customer spending and the GST rate.
 2. Orders with higher delivery fee also have a higher order value. We can observe that delivery fee increases with increase in order size. So for orders woth higher cart value, we see higher delivery fees, but for orders with lower cart value, customers prefer to have lower delivery fees only. This observation was also seen in one of the previous plots in this business study.
@@ -273,14 +283,14 @@ Plot for Average total spend/order value vs Delivery Charge:
 
 ### **Q19**  
 Plot for Seasonal trends in sales by product category:
-<img width="652" alt="image" src="https://github.com/user-attachments/assets/1c5c4871-cb07-4ab6-844c-9eed796ce2f9" />
+<img width="652" alt="image" src="https://github.com/user-attachments/assets/1c5c4871-cb07-4ab6-844c-9eed796ce2f9" /></br>
 **Observations:**    
 1. Both Chicago and California which are the top locations by revenue, show a drop in May-June and a steep increase in sales during year end(November-December).
 2. New York sees a sharp dip in sales in February and September followed by rise in sales October and November.
 3. New Jersey and Washington also see an increase in sales in November-December but they are the lowest performings tates in terms of revenues,.
 
 Plot for seasonal trends in sales across locations:
-<img width="654" alt="image" src="https://github.com/user-attachments/assets/c2ad4d3e-23fb-4d3d-97c7-d2ad3ab43d97" />
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/c2ad4d3e-23fb-4d3d-97c7-d2ad3ab43d97" /></br>
 **Observations:**  
 1. The product category with code nest-canada has the highest sales.
 2. Apparel category has the highest demand in April with high demand from February-June period and demand slows down during the end of the year.
