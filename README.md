@@ -203,3 +203,47 @@ The Standard and Silver segment have relatively less individuals that are very h
 Plot showing the lifetime value of customers acquired in different months: </br>
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/f0e374b1-8f16-4331-89f2-3293fa476074" />
 
+
+### **Q14**  
+We will be usinga statistical test to answer the following question:  
+**Do customers who use coupons have a different average transaction value compared to those who do not**
+Null Hypothesis: There is no difference in average transaction value between coupon users and non-coupon users.  
+Alternative Hypothesis: There is a difference in average transaction value between coupon users and non-coupon users.  
+**T-statistic: -5.974679218749349**  
+**P-value: 2.3059138816811853e-09**  
+**Since p value < 0.5 we reject the null hypothesis and conclude that there is a statistically significant difference in average transaction value between coupon users and non-coupon users**  
+This can also be seen in the plot below comparing the average revenue with and without coupon usage.
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/fba98135-dabb-419c-87b8-b84c29153cbe" />
+From the image, we can see that there in no signifact in monthly average revenue with coupon use and without coupon use which also confirms the results of the hypothesis testing.
+
+### **Q15**  
+
+
+### **Q16**  
+**The correlation value between the transaction frequency(transactions per month) and the tenure_months is -0.40274277057546637**  
+To furthere visualise this, we have divided the customer tenures into 5 bins and plotted the average transaction frequency for each bin:  
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/20533d29-bea1-46c0-801d-23bbedb8e88f" />
+This shows that the newer customer/ customers with lower value of tenure_months are buying more frequently than the older customers. This is also consistent with the negative correlation between the transaction frequeency and the customer tenure, which effectively means that as the customer tenure increases the transaction frequency decreases.
+This results can be used to improve customer engagement and retrntion strategies in teh following ways:
+1. From the analysis, we know that as the customer tenure increases their transaction frequency decreases.
+2. To improve this, we can target customers who have high tenure months with coupons or rewards on further shopping to encourage them to interact more frequently with the platform even as there tenure grows. Through this we can increase the transaction frequency of high tenure/older customers and that will in turn lead to an increase in the revenue.
+
+### **Q17**  
+Plot for order count vs Delivery charges:  
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/1ba90715-3631-4eef-9ed8-dd8718084c2f" />
+Plot for order value vs Delivery charges:  
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/a5ee34f1-4c3c-4a44-bbe9-e4993837d442" />
+From the above plots, we can make the following observations:  
+1. Majority of the orders are for the lower delivery fees(around Rs 0-74.48). This shows that most of the users prefer ordering for items with lower delivery charges.
+2. The order count significantly drops as the delivery fee increases, so delivery fee is a major factor influencing the order count.
+3. From the order value vs Delivery Charges, plot we can see that for higher delivery fee, the average order value is much higher than the average order value for lower delivery fee orders. This shows that the few customers that order with high delivery charges have higher value buckets and in turn higher order values.
+**How can we optimize delivery pricing to increase order quantities or revenue:**
+1. Higher delivery fees are a major detterent that discourages customers to buy. So reviewing, the delivery fees and offering incentives or concessions on delivery fees to new or less frequently shopping customers for products haveing higher delivery fees to help increase their interactoion with the platform.
+2. We see that higher delivery fee increases the order value, so reducing the delivery fee by some magnitude on orders above a certain basket value can help capitalise more on this segment and slowly drive the order values up by giving customers incentives for bigger order values.
+3. Since delivery fees is inversely proportional to the order count, a free delivery subscription model can help drive the order count up further while making sure profit margin is there as well. Some experimenting with this idea can help drive more revenue.
+
+### **Q18**  
+Plot for Average total spend/order value vs the GST Rate:  
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/6f498603-9dd5-4a7d-a937-1aa7209cce45" />
+Plot for Average total spend/order value vs Delivery Charge:
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/281ed513-bfd2-42c7-bc9e-c3bfa27f7a8e" />
